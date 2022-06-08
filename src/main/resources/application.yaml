@@ -2,3 +2,5 @@ server:
   port: 8088
   servlet:
     context-path: /currency
+http:
+  timeout: 1
