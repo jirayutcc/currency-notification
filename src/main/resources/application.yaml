@@ -4,3 +4,5 @@ server:
     context-path: /currency
 http:
   timeout: 1
+currency-config:
+  currency-url: https://blockchain.info/ticker?base={currency}
