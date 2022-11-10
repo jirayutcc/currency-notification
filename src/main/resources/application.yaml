@@ -5,4 +5,5 @@ server:
 http:
   timeout: 1
 currency-config:
-  currency-url: https://blockchain.info/ticker?base={currency}
+  currency-url: https://blockchain.info/ticker
+  #currency-url: https://blockchain.info/ticker?base=BTC
