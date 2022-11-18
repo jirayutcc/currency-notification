@@ -1,4 +1,4 @@
-package com.currency.currencynotification.models;
+package com.currency.currencynotification.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;

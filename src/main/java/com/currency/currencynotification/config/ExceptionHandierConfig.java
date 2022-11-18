@@ -1,7 +1,7 @@
 package com.currency.currencynotification.config;
 
 import com.currency.currencynotification.exception.CurrencyException;
-import com.currency.currencynotification.models.ErrorResponse;
+import com.currency.currencynotification.dto.ErrorResponse;
 import com.currency.currencynotification.utils.ErrorMapping;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
