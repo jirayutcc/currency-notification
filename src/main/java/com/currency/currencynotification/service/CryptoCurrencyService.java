@@ -28,4 +28,13 @@ public class CryptoCurrencyService {
                 BTC_ERROR_MESSAGE
         );
     }
+
+    public CryptoCurrencyList getEthereumCurrency() throws CurrencyException {
+        return httpClientAdapter.getWithParameters(
+                currencyProperties.getCurrencyUrl(),
+                CryptoCurrencyList.class,
+                Constant.CurrencyType.ETH,
+                BTC_ERROR_MESSAGE
+        );
+    }
 }

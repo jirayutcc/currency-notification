@@ -6,6 +6,7 @@ public class Constant {
 
     public static class CurrencyType {
         public static final String BTC = "BTC";
+        public static final String ETH = "ETH";
         public static final String XRP = "XRP";
         public static final String DOGE = "DOGE";
         public static final String USDC = "USDC";
